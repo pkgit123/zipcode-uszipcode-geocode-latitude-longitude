@@ -20,6 +20,8 @@ geocode = (zip_search.lat, zip_search.lng)
 print(geocode)
 ```
 
+Then use `geopy` library to lookup distance between 2 geocodes.
+
 ### References: 
 * Stackoverflow calculate distance, see uszipcode library. https://stackoverflow.com/questions/52292765/how-to-calculate-distance-between-two-zips
 * Python uszipcode library. https://pypi.org/project/uszipcode/
